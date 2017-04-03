@@ -13,6 +13,9 @@ also allows you download files from server remotely or upload files without sett
 INSTALLATION:-
 1st unzip the ico.zip file inside the project folder itself
 then copy exp.php ext.txt and ico folder into the server hosting folder
+then make the file ext.txt writable and readable for everyone using the command [  chmod 777 ext.txt  ] inside the terminal
+and make a "user_data" named folder inside the hosting folder and make this folder writable too as files uploaded will be saved inside this folder using the command [  chmod 777 user_data  ]
+
 to use it from any other dervice  type in the server's ip
  / exp.php    Example= 192.168.0.4/exp.php inside the browser 
  
