@@ -5,11 +5,18 @@ _________________________________________________
 |                                                |
 |________________________________________________|
 
+INTRO :-
 this is a code written in php that lets you find valuable info from your server like battery percentage files contained and it 
 also allows you download files from server remotely or upload files without setting up any ftp client
 
-just go and add this file inside your servers hosting folder and from any other dervice to use it type in the server's ip
+
+INSTALLATION:-
+1st unzip the ico.zip file inside the project folder itself
+then copy exp.php ext.txt and ico folder into the server hosting folder
+to use it from any other dervice  type in the server's ip
  / exp.php    Example= 192.168.0.4/exp.php inside the browser 
+ 
+ add files inside the hosting folder to share through the browser
  
  
  tools contained in it
