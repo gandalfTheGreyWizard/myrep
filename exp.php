@@ -73,7 +73,7 @@ if(isset($_POST['back']))
 
 }
 echo <<<_END
-<table>
+<table style="position:fixed;top:0px;left:0px;">
 <tr>
 <td>
 <form method = "post" action = "exp.php">
