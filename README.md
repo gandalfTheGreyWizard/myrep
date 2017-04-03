@@ -16,6 +16,8 @@ then copy exp.php ext.txt and ico folder into the server hosting folder
 then make the file ext.txt writable and readable for everyone using the command [  chmod 777 ext.txt  ] inside the terminal
 and make a "user_data" named folder inside the hosting folder and make this folder writable too as files uploaded will be saved inside this folder using the command [  chmod 777 user_data  ]
 
+note :- During directory traversal always use the reset and back buttons provided in the web app and not the browser one
+
 to use it from any other dervice  type in the server's ip
  / exp.php    Example= 192.168.0.4/exp.php inside the browser 
  
